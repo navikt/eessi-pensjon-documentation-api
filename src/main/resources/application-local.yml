@@ -1,0 +1,4 @@
+# Local development: token validation is disabled (see SecurityConfig).
+logging:
+  level:
+    no.nav.eessi.pensjon: DEBUG

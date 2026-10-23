@@ -1,0 +1,13 @@
+name: eessi-pensjon-documentation-api
+ingress: https://eessi-pensjon-documentation-api.intern.dev.nav.no
+
+replicas:
+  min: 1
+  max: 1
+
+resources:
+  limits:
+    memory: 512Mi
+  requests:
+    cpu: 50m
+    memory: 256Mi
